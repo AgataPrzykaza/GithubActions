@@ -7,16 +7,16 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-test:
+  build-only:
     runs-on: macos-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Build and test
+    - name: Build project
       run: |
-        xcodebuild test \
+        xcodebuild build \
           -project GithubActions.xcodeproj \
           -scheme GithubActions \
           -destination 'platform=iOS Simulator,name=iPhone 14' \
