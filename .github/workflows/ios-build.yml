@@ -19,12 +19,6 @@ jobs:
       with:
         ruby-version: '3.2'
 
-    - name: Install dependencies (if using CocoaPods)
-      run: |
-        gem install cocoapods # lub bundle install
-        pod install
-      if: exists('Podfile')
-
     - name: Build and test
       run: |
         xcodebuild test \
