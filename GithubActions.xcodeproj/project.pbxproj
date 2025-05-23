@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,26 +35,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FDE4E58A2DE08EE20013FFF2 /* GithubActions */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GithubActions;
-			sourceTree = "<group>";
-		};
-		FDE4E5982DE08EE40013FFF2 /* GithubActionsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GithubActionsTests;
-			sourceTree = "<group>";
-		};
-		FDE4E5A22DE08EE40013FFF2 /* GithubActionsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GithubActionsUITests;
-			sourceTree = "<group>";
-		};
-		FDE4E5B42DE08F390013FFF2 /* .github */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = .github;
-			sourceTree = "<group>";
-		};
+		FDE4E58A2DE08EE20013FFF2 /* GithubActions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GithubActions; sourceTree = "<group>"; };
+		FDE4E5982DE08EE40013FFF2 /* GithubActionsTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GithubActionsTests; sourceTree = "<group>"; };
+		FDE4E5A22DE08EE40013FFF2 /* GithubActionsUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GithubActionsUITests; sourceTree = "<group>"; };
+		FDE4E5B42DE08F390013FFF2 /* .github */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = .github; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +184,7 @@
 				};
 			};
 			buildConfigurationList = FDE4E5832DE08EE20013FFF2 /* Build configuration list for PBXProject "GithubActions" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +193,6 @@
 			);
 			mainGroup = FDE4E57F2DE08EE20013FFF2;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = FDE4E5892DE08EE20013FFF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
