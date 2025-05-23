@@ -14,15 +14,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Set up Ruby (needed for CocoaPods, Fastlane, etc.)
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.2'
-
     - name: Build and test
       run: |
         xcodebuild test \
-          -project GithubActions.xcodeproj \ # lub -workspace GithubActions.xcworkspace
+          -project GithubActions.xcodeproj \
           -scheme GithubActions \
           -destination 'platform=iOS Simulator,name=iPhone 14' \
           CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
